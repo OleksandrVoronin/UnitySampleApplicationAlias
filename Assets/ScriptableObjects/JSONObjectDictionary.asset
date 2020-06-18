@@ -1,0 +1,31 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7b34f593bec79fb4e81fc53d8fa5b76a, type: 3}
+  m_Name: JSONObjectDictionary
+  m_EditorClassIdentifier: 
+  m_PrefabList:
+  - id: cube
+    prefab: {fileID: 4976546542269567393, guid: f18cecfa7f74ba744a2333dec1f00ef8,
+      type: 3}
+  - id: sphere
+    prefab: {fileID: 7807085173034970937, guid: fc6539079abd06940a990e08456c9428,
+      type: 3}
+  - id: capsule
+    prefab: {fileID: 4758263739317347317, guid: 68a35cac7a61d264abbe42241aa3ae63,
+      type: 3}
+  m_ScriptsList:
+  - id: hide_show_object.cs
+    script: {fileID: 11500000, guid: 5112d54f1dace0548a6be0be8dca3ec4, type: 3}
+  - id: hide_other_objects.cs
+    script: {fileID: 11500000, guid: 75cd17f567f41de4dba4bd2eb62a3ac2, type: 3}
+  - id: sound.cs
+    script: {fileID: 11500000, guid: 0350ed8d92d17f2409e5ddae444a54eb, type: 3}
